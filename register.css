@@ -1,0 +1,158 @@
+#HEADER{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 5px;
+    position: absolute;
+    width: 1400px;
+}
+.topnav {
+    background-color: rgba(244, 62, 17, 0.864);
+    overflow: hidden;
+    position: sticky;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color:rgba(244, 62, 17, 0.750);
+    color: black;
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgba(244, 62, 17, 0.864);
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    background: azure;
+}    
+
+.main{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    background: rgb(253, 152, 2);
+    padding: 34px;
+    margin-top: 190px;
+    margin-left: 500px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.main h2{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+
+.main h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: #4070f4;
+}
+.main form{
+    margin-top: 30px;
+}
+.main form .input-box{
+    height: 52px;
+    margin: 18px 0;
+}
+
+form .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid{
+    border-color: #4070f4;
+}
+form .policy{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+form h3{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.input-box.button input{
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: rgba(244, 62, 17, 0.750);
+    cursor: pointer;
+}
+.input-box.button input:hover{
+    background: rgb(255, 0, 0);
+}
+
+form .text h3{
+   color: rgb(0, 0, 0);
+   width: 100%;
+   text-align: center;
+}
+form .text h3 a{
+    color: #3700ff;
+    text-decoration: none;
+}
+form .text h3 a:hover{
+    text-decoration: underline;
+}
+.foot{
+    margin-top: 800px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -20px;
+    padding: 10px 15px 10px 15px;
+    background-color:rgba(244, 62, 17, 0.877);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.fh{
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header id="HEADER">
+        <div class="DIV1" style="display:inline-block;vertical-align:top;">
+            <img src="logo.jpg" alt="" width="100px">
+        </div>
+        <div style="display:inline-block">
+            <h1>Blood Bank Management System</h1>
+        </div>
+        <div style="display:inline-block;vertical-align:top;">
+            <img src="logo.jpg" alt="" width="100px">
+        </div>
+        <div class="topnav">
+            <a href="main.html">Home</a>
+            <a class="active" href="register.html">Registration</a>
+            <a href="login.html">Login</a>
+            <a href="faqs-facts.html">FAQs and Facts</a>
+        </div>
+    </header>
+    <div class="main">
+        <h2>Registration</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+                <input id="pass" type="password" name="pass" placeholder="Enter Password" required"">
+                <input id="confirm_pass" type="password" name="confirm_pass" placeholder="Confirm Password" required onkeyup="validate_password()">
+            </div>  
+            <span id="wrong_pass_alert"></span>
+            <div class="policy">
+                <input type="checkbox">
+            <h3>I accept all terms & condition</h3>
+            </div>
+            <div class="input-box button">
+                <input type="Submit" value="Register Now" onclick="wrong_pass_alert()">
+            </div>
+            <div class="text">
+                <h3>Already have an account? <a href="login.html">Login now</a></h3>
+            </div>
+        </form>
+    </div>
+    <script>
+        function validate_password() {
+ 
+            var pass = document.getElementById('pass').value;
+            var confirm_pass = document.getElementById('confirm_pass').value;
+            if (pass != confirm_pass) {
+                document.getElementById('wrong_pass_alert').style.color = 'red';
+                document.getElementById('wrong_pass_alert').innerHTML
+                  = '☒ Use same password';
+                document.getElementById('create').disabled = true;
+                document.getElementById('create').style.opacity = (0.4);
+            } else {
+                document.getElementById('wrong_pass_alert').style.color = 'green';
+                document.getElementById('wrong_pass_alert').innerHTML =
+                    '🗹 Password Matched';
+                document.getElementById('create').disabled = false;
+                document.getElementById('create').style.opacity = (1);
+            }
+        }
+ 
+        function wrong_pass_alert() {
+            if (document.getElementById('pass').value != "" &&
+                document.getElementById('confirm_pass').value != "") {
+                alert("Your response is submitted");
+            } else {
+                alert("Please fill all the fields");
+            }
+        }
+    </script>
+    <footer class="foot" align="center">
+
+        <div id="footer">
+            <p><b class="fh"><u>About Us</u></b><br>We have made this blood bank management system website as our
+                First Year PBL project under the guidance of our instructor Mr. N.D.Gaikwad Sir. We are group of five
+                namely Vedant, Sanjana, Adiyta, Yadnesh, Subodh. Our objective is to create a effective management
+                and monitoring the quantity of donated, received blood; which is more user-friendly than the
+                existing one.
+            </p><br>
+        </div>
+
+        <p><b class="fh"><u>Contact Us</u></b><br>dummymail@gmail.com
+        </p>
+    </footer>
+</body>
+</html>

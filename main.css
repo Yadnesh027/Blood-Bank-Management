@@ -1,0 +1,278 @@
+body{
+    margin: 0%;
+    padding: 5px;
+}
+#HEADER{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -5px;
+    position: fixed;
+    width: 1400px;
+}
+.topnav {
+    background-color: rgba(244, 62, 17, 0.864);
+    overflow: hidden;
+    position: sticky;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:rgba(244, 62, 17, 0.750);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgba(244, 62, 17, 0.864);
+    color: white;
+  }
+
+.DIV2{
+    margin-top: 130px;
+}
+
+.button {
+    margin-left: 70px ;
+    font-size: 18px;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    pointer-events: auto;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 400px;
+    z-index: -3;
+    border: 0;
+    transition: box-shadow .2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.red-cross {
+    margin-top: 5px;
+    height: 40px;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.eligible-button {
+    margin-left: 400px;
+}
+
+.button1 {
+    margin-left: 70px ;
+    font-size: 18px;
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: 550px;
+    pointer-events: auto;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 400px;
+    z-index: -3;
+    border: 0;
+    transition: box-shadow .2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.eligible {
+    background-color: rgb(255, 225, 179);
+}
+
+#tab1{
+    margin-top: 30px;
+    margin-left: 75px;
+    background-color: azure;  
+    border: 3px solid black;  
+}
+
+#r1{
+    background-color: rgb(177, 8, 8);
+    color: white;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#r2{
+    font-size: 17px;
+    color: rgb(255, 0, 0);
+}
+#rx{
+    text-align: center;
+}
+#head2{
+    color: rgb(194, 3, 3);
+    padding-top: 5px;
+    padding-left: 150px;
+    font-size: 40px;
+    background-color:blanchedalmond;
+}
+.checklist{
+    list-style: outside none;
+    background: url(icon_checkmark.jpg) no-repeat;
+    background-position: 0 4px;
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#ul{
+    align-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+}
+.info{
+    background-color: blanchedalmond;
+    border: 6px solid rgb(253, 219, 168);
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#head3{
+    background-color:blanchedalmond;
+    color: rgb(194, 3, 3);
+    padding-bottom: 2px;
+    padding-left: 300px;
+    font-size: 40px;
+}
+
+.advt{
+    background-color: blanchedalmond;
+    border: 6px solid rgb(253, 219, 168);
+    margin-top: 10px;
+    padding-top: 20px;
+    padding: 3px 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.advt p{
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+#head4{
+    background-color:blanchedalmond;
+    color: rgb(194, 3, 3);
+    padding-top: 5px;
+    padding-left: 250px;
+    font-size: 40px;
+}
+
+.types{
+    margin-top: 10px;
+    border: 6px solid rgb(253, 219, 168);
+    padding: 5px 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color:blanchedalmond;
+
+}
+#def{
+    font-size: 20px;
+}
+.rt{
+    color: rgb(226, 39, 39);
+    font-size: 20px;
+}
+.mytabs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mytabs input[type="radio"]{
+    display: none;
+}
+.mytabs label{
+    margin-left: 8px;
+    padding: 12px;
+    padding-left: 67px;
+    padding-right: 67px;
+    color:crimson;
+    font-size: 22px;    
+    background:blanchedalmond;
+    font-weight: bold;
+}
+.mytabs .tab{
+    width: 100%;
+    font-size: 20px;
+    background:blanchedalmond;
+    order: 1;
+    display: none;
+}
+.mytabs input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+.mytabs input[type="radio"]:checked + label{
+    background:rgba(244, 206, 149, 0.911);
+}
+.foot{
+    margin-left: -173px;
+    margin-right: -173px;
+    margin-bottom: -35px;
+    background-color:rgba(244, 62, 17, 0.900);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.fh{
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.foot p {
+    padding: 5px 50px;
+}

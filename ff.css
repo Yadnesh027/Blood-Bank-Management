@@ -1,0 +1,121 @@
+body {
+    margin: 0%;
+    padding: 5px;
+}
+
+#HEADER {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -5px;
+    position: fixed;
+    width: 1400px;
+    z-index: 10;
+}
+
+.topnav {
+    background-color: rgba(244, 62, 17, 0.864);
+    overflow: hidden;
+    position: sticky;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgba(244, 62, 17, 0.750);
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgba(244, 62, 17, 0.864);
+    color: white;
+}
+
+.container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.head {
+    font-size: 35px;
+}
+
+.sp {
+    font-size: 50px;
+    font-weight: 600;
+    color: red
+}
+
+.accordion{
+    width: 90vw;
+}
+
+.accordion .contentbx{
+    position: relative;
+    margin: 10px 20px;
+}
+
+.accordion .contentbx .label {
+    position: relative;
+    padding: 10px;
+    background: rgba(255, 0, 0, 0.800);
+    color: white;
+    cursor: pointer;
+}
+
+.accordion .contentbx .label::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.accordion .contentbx.active .label::before {
+    content: '-';
+}
+
+.accordion .contentbx .content {
+    position: relative;
+    padding: 10px;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.accordion .contentbx.active .content {
+    height:fit-content;
+    visibility: visible;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.box {
+    position: relative;
+    margin-top: -130px;
+    width: 90vw;
+    font-size: 18px;
+}
+
+.facts {
+    position: relative;
+    margin-left: 20px;
+    width: 85vw;
+    font-size: 18px;
+}

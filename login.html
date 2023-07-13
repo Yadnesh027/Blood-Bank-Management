@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<link rel="stylesheet" href="login.css">
+<body>
+    <header id="HEADER">
+        <div class="DIV1" style="display:inline-block;vertical-align:top;">
+            <img src="logo.jpg" alt="" width="100px">
+        </div>
+        <div style="display:inline-block">
+            <h1>Blood Bank Management System</h1>
+        </div>
+        <div style="display:inline-block;vertical-align:top;">
+            <img src="logo.jpg" alt="" width="100px">
+        </div>
+        <div class="topnav">
+            <a href="main.html">Home</a>
+            <a href="register.html">Registration</a>
+            <a class="active" href="login.html">Login</a>
+            <a href="faqs-facts.html">FAQs and Facts</a>
+        </div>
+    </header>
+    <h2>Login Page</h2><br>    
+    <div class="login">    
+        <form id="login" method="get" action="login.php">    
+            <label><b>User Name     
+            </b>    
+            </label>    
+            <input type="text" name="Uname" id="Uname" placeholder="Username" required>    
+            <br><br>    
+            <label><b>Password     
+            </b>    
+            </label>    
+            <input type="Password" name="Pass" id="Pass" placeholder="Password" required>    
+            <br><br>    
+            <input type="button" name="log" id="log" value="Log In Here" onclick="logged()">       
+            <br><br>    
+            <input type="checkbox" id="check">    
+            <span>Remember me</span>    
+            <br><br>    
+            <a href="#">Forgot Password? </a>    
+        </form>
+    </div>
+    <footer class="foot" align="center">
+
+        <div id="footer">
+            <p><b class="fh"><u>About Us</u></b><br>We have made this blood bank management system website as our
+                First Year PBL project under the guidance of our instructor Mr. N.D.Gaikwad Sir. We are group of five
+                namely Vedant, Sanjana, Adiyta, Yadnesh, Subodh. Our objective is to create a effective management
+                and monitoring the quantity of donated, received blood; which is more user-friendly than the
+                existing one.
+            </p><br>
+        </div>
+
+        <p><b class="fh"><u>Contact Us</u></b><br>dummymail@gmail.com
+        </p>
+    </footer>
+</body>
+<script>
+    function logged() {
+        alert("You have been logged in successfully");
+    }
+</script>
+</html>

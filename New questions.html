@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eligibility</title>
+    <link href="New questions.css" rel="stylesheet" type="text/css">
+    <script>
+        function showalert(){
+                alert("Your Eligibility have been sent to your Mobile Number Thank You!!!!!")
+        }
+    </script>
+</head>
+
+<body>
+    <header id="HEADER">
+        <div class="DIV1" style="display:inline-block;vertical-align:top;">
+            <img src="logo.jpg" alt="" width="100px">
+        </div>
+        <div style="display:inline-block">
+            <h1>Blood Bank Management System</h1>
+        </div>
+        <div style="display:inline-block;vertical-align:top;">
+            <img src="logo.jpg" alt="" width="100px">
+        </div>
+        <div class="topnav">
+            <a class="active" href="main.html">Home</a>
+            <a href="register.html">Registration</a>
+            <a href="login.html">Login</a>
+            <a href="faqs-facts.html">FAQs and Facts</a>
+        </div>
+    </header>
+
+    <div class="box">
+        <strong>Check your Eligibility for donating blood</strong>
+    </div>
+
+    <div class="container">
+        <form>
+            <label for="q1">Enter your age: </label>
+            <input type="number" id="age" min="0" required class="Response">
+            <br><br>
+
+            <label for="q">Tell about your gender: </label>
+            <input type="radio" name="q" id="m" class="Response">
+            <label for="m">Male</label>
+            <input type="radio" name="q" id="f" class="Response">
+            <label for="f">Female</label>
+            <input type="radio" name="q" id="f" class="Response">
+            <label for="f">Other</label>
+            <br><br>
+
+            <label for="q2">Enter your height(in cm)</label>
+            <input type="number" id="q2" min="0" required class="Response">
+            <br><br>
+
+            <label for="q3">Enter your weight(in Kg)</label>
+            <input type="number" id="q3" min="0" required class="Response">
+            <br><br>
+
+            <label for="q4">Do you have Diabetes or have been Diabetic?</label>
+            <input type="radio" name="q4" id="y1" required class="Response">
+            <label for="y1">Yes</label>
+            <input type="radio" name="q4" id="n1" required class="Response">
+            <label for="n1">No</label>
+            <br><br>
+
+            <label for="q5">Do you take some kind of Drugs?</label>
+            <input type="radio" name="q5" id="y2" required class="Response">
+            <label for="y2">Yes</label>
+            <input type="radio" name="q5" id="n2" required class="Response">
+            <label for="n2">No</label>
+            <br><br>
+
+            <label for="q6">Do you have cancer?</label>
+            <input type="radio" name="q6" id="y3" required class="Response">
+            <label for="y3">Yes</label>
+            <input type="radio" name="q6" id="n3" required class="Response">
+            <label for="n3">No</label>
+            <br><br>
+
+            <label for="q7">Do you have any kind of heart diseases?</label>
+            <input type="radio" name="q7" id="y4" required class="Response">
+            <label for="y4">Yes</label>
+            <input type="radio" name="q7" id="n4" required class="Response">
+            <label for="n4">No</label>
+            <br><br>
+
+            <label for="q8">Have you been affected by Hepatitis B, Hepatitis C, Tuberculosis, Leprosy and HIV?</label>
+            <input type="radio" name="q8" id="y5" required class="Response">
+            <label for="y5">Yes</label>
+            <input type="radio" name="q8" id="n5" required class="Response">
+            <label for="n5">No</label>
+            <br><br>
+
+            <label for="q9">Where you affected by malaria within 3 months?</label>
+            <input type="radio" name="q9" id="y6" required class="Response">
+            <label for="y6">Yes</label>
+            <input type="radio" name="q9" id="n6" required class="Response">
+            <label for="n6">No</label>
+            <br><br>
+
+            <label for="q10">Enter You Mobile Number :-</label>
+            <input type="number" name="q10" id="y7" required class="Response">
+            <br><br>
+
+            <button value="submit" id="submit" class='button' onclick="showalert()">Submit</button>
+        </form>
+    </div>
+    
+</body>
+
+
+</html>
